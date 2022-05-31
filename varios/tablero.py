@@ -10,4 +10,3 @@ for i in range (1,filas+1):
         else:
             print(CELDA+"🔲",end="")
     print("")
-
