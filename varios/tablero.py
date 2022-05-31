@@ -13,23 +13,3 @@ for i in range (1,filas+1):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# cuadrados = [x**2 for x in range(1,11)]
-# print(cuadrados)
-# impares = [x for x in cuadrados if x%2!=0]
-# print(impares)
