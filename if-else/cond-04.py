@@ -17,9 +17,9 @@ lado3 = int(input())
 
 if lado1 >= (lado2 + lado3 ):
     print("No es un triangulo")
-elif lado1 == (lado2 + (lado3**2)):
+elif lado1**2 == (lado2 + (lado3**2)):
     print("Es un triangulo rectangulo")
-elif lado1 > (lado2 + (lado3**2)):
+elif lado1**2 > (lado2 + (lado3**2)):
     print("Es un triangulo obtusangulo")
-elif lado1 < (lado2 + (lado3**2)):
+elif lado1**2 < (lado2 + (lado3**2)):
     print("Es un triangulo acutangulo")
